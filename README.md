@@ -37,10 +37,24 @@ FakeGuard.ai is a **production-ready machine learning application** that detects
 
 ## 🖥️ Screenshots
 
-| Hero Page | Live Analysis | Results Dashboard |
-|-----------|--------------|-------------------|
-| Premium dark UI with animated neural network | Real-time detection as you type | Confidence ring, risk meter, word signals |
+### Hero Page
+*Premium dark UI with animated neural network*
 
+![Hero Page](screenshots/hero-page.jpeg)
+
+---
+
+### Live Analysis
+*Real-time detection as you type*
+
+![Live Analysis](screenshots/live-analysis.jpeg)
+
+---
+
+### Results Dashboard
+*Confidence ring, risk meter, and word signals*
+
+![Results Dashboard](screenshots/dashboard.jpeg)
 ---
 
 ## 📊 Model Performance
