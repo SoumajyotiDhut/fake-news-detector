@@ -13,8 +13,10 @@
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[🚀 Live Demo](#-live-demo) · [📖 How It Works](#-how-it-works) · [⚡ Quick Start](#-quick-start) · [📊 Model Results](#-model-performance) · [🛠️ API Docs](#-api-endpoints)
-
+## 🚀 Live Demo
+- **Frontend:** https://fake-news-detector-iota-three.vercel.app/
+- **API:** https://fake-news-detector-production-af52.up.railway.app
+- **API Docs:** https://fake-news-detector-production-af52.up.railway.app/docs
 </div>
 
 ---
