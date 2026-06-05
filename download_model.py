@@ -5,7 +5,7 @@ HF_REPO = os.environ.get("HF_REPO", "YOUR_HF_USERNAME/fake-news-detector-distilb
 MODEL_DIR = os.environ.get("MODEL_DIR", "/app/models")
 
 FILES = [
-    "best_model.pt",
+    # "best_model.pt",      # ← removed, too large for free tier
     "tfidf_vectorizer.pkl",
     "meta_scaler.pkl",
     "model_lr.pkl",
