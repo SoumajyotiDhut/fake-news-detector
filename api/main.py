@@ -45,8 +45,8 @@ app.add_middleware(
 def health():
     return {
         "status":            "ok",
-        "model_loaded":      ml.model is not None,
-        "model_name":        "distilbert-base-uncased",
+        "model_loaded":      ml.lr_model is not None,
+        "model_name":        "logistic-regression-tfidf",
         "total_predictions": get_total_count()
     }
 
