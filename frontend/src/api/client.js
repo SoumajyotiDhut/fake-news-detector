@@ -9,4 +9,4 @@ export const explainText = (text) => client.post('/explain', { text })
 export const predictRealtime = (text) => client.post('/predict-realtime', { text })
 export const predictURL = (url) => client.post('/predict-url', { url })
 export const getHistory = (limit = 20) => client.get(`/history?limit=${limit}`)
-export const getHealth = () => client.get('/health')
+export const getHealth = () => client.get('/health')// deployed

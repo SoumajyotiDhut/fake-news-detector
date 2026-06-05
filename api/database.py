@@ -1,6 +1,6 @@
 from sqlmodel import SQLModel, Field, create_engine, Session, select
 from typing import Optional
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 
 DB_PATH = os.environ.get("DB_PATH", "predictions.db")
@@ -16,7 +16,7 @@ class Prediction(SQLModel, table=True):
     text_preview: str
     word_count:   int
     source:       str = "text"
-    created_at:   datetime = Field(default_factory=datetime.utcnow)
+    created_at:   datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
 
 def create_db():
