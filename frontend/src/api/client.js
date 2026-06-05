@@ -1,6 +1,8 @@
 ﻿import axios from 'axios'
 
-const client = axios.create({ baseURL: '/api' })
+const BASE_URL = 'https://fake-news-detector-production-af52.up.railway.app'
+
+const client = axios.create({ baseURL: BASE_URL })
 
 export const predictText = (text) => client.post('/predict', { text })
 export const explainText = (text) => client.post('/explain', { text })
